@@ -10,11 +10,11 @@ OPERATOR_TOKEN_TYPE_MAP = {
 }
 
 
-# file_name = str(input('Enter file name: '))
+file_name = str(input('Enter file name: '))
 
 expression = []
 
-with open("Calc1.stk") as f:
+with open(file_name) as f:
     expression = f.read().splitlines()
 
 
